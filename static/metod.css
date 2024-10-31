@@ -1,0 +1,45 @@
+/* Styling for sections in About page */
+.method-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f9ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.method-section:nth-child(odd) {
+    background-color: #fff7e8;
+}
+
+.method-section h2 {
+    font-size: 1.8em;
+    color: #4a90e2;
+    margin-bottom: 15px;
+}
+
+.method-section h3 {
+    font-size: 1.4em;
+    color: #4a90e2;
+    margin-top: 20px;
+}
+
+.method-section ol, .method-section ul {
+    padding-left: 20px;
+}
+
+.method-section li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    font-size: 0.9em;
+    border-radius: 10px;
+}

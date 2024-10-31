@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Контакты</title>
+</head>
+<body>
+    <header>
+        <h1>Связаться с Иброхимом Абдукодировым</h1>
+        <p>Для записи на консультацию или получения дополнительной информации</p>
+    </header>
+
+    <nav>
+        <a href="/">Главная</a>
+        <a href="/autobiography">Биография</a>
+        <a href="/about">О методике</a>
+    </nav>
+
+    <main>
+        <section class="contact-section">
+            <h2>Свяжитесь с нами</h2>
+            <div class="contact-method">
+                <a href="https://t.me/Doc_Abdukodirov" target="_blank" class="contact-link">
+                    <img src="{{ url_for('static', filename='telegram-icon.png') }}" alt="Telegram Icon" class="contact-icon">
+                    Telegram: @Doc_Abdukodirov
+                </a>
+            </div>
+            <div class="contact-method">
+                <a href="mailto:info@ibrohimavduqulov.uz" class="contact-link">
+                    <img src="{{ url_for('static', filename='email-icon.png') }}" alt="Email Icon" class="contact-icon">
+                    Email: info@ibrohimavduqulov.uz
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Иброхим Абдукодиров. Все права защищены.</p>
+    </footer>
+</body>
+</html>
