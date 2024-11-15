@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Рекомендую книги</title>
+</head>
+<body>
+    <header>
+        <h1>Рекомендую книги</h1>
+        <p>Список книг, которые помогут вам улучшить здоровье, воспитание детей и духовное развитие.</p>
+    </header>
+
+    <nav>
+        <a href="/autobiography">Биография</a>
+        <a href="/metod">О методике</a>
+        <a href="/contact">Контакты</a>
+    </nav>
+
+    <main>
+        <section class="book-recommendations">
+            <h2>Полезные книги для вас</h2>
+            <div class="book-list">
+                <div class="book">
+                    <a href="https://cassiopeiabook.info/books/bolshaya-entsiklopediya-jizn-i-zdorove-mujchinyi" target="_blank">
+                        <img src="{{ url_for('static', filename='book1.jpg') }}" alt="Большая энциклопедия. Жизнь и здоровье мужчины">
+                        <h3>Большая энциклопедия. Жизнь и здоровье мужчины</h3>
+                        <p>Полное руководство по поддержанию физического и психического здоровья для мужчин.</p>
+                    </a>
+                </div>
+                <div class="book">
+                    <a href="https://olcha.uz/ru/product/view/polnaya-entsiklopediya-zhizn-i-zdorove-zhenshchiny-komplekt-iz-2-knig?srsltid=AfmBOooR0Ah18isbUNPB-EWTE1JD7uq1A6WfjFAxQGcGQGfbMaiQyROo" target="_blank">
+                        <img src="{{ url_for('static', filename='book2.jpg') }}" alt="Полная энциклопедия. Жизнь и здоровье женщины">
+                        <h3>Полная энциклопедия. Жизнь и здоровье женщины</h3>
+                        <p>Энциклопедия о физическом и психическом здоровье женщин для поддержания гармонии.</p>
+                    </a>
+                </div>
+                <div class="book">
+                    <a href="https://hilolnashr.uz/islomda-yoshlar-tarbiyasi" target="_blank">
+                        <img src="{{ url_for('static', filename='book3.jpg') }}" alt="Исламда ёшлар тарбияси">
+                        <h3>Исламда ёшлар тарбияси</h3>
+                        <p>Книга о воспитании молодежи с точки зрения исламских ценностей.</p>
+                    </a>
+                </div>
+                <div class="book">
+                    <a href="https://hilolnashr.uz/baxtiyor-oila" target="_blank">
+                        <img src="{{ url_for('static', filename='book4.jpg') }}" alt="Бахтли оила">
+                        <h3>Бахтли оила</h3>
+                        <p>Книга о семейных ценностях и отношениях, ведущих к счастью и пониманию.</p>
+                    </a>
+                </div>
+                <div class="book">
+                    <a href="https://hilolnashr.uz/soglom-bola" target="_blank">
+                        <img src="{{ url_for('static', filename='book5.jpg') }}" alt="Соғлом бола">
+                        <h3>Соғлом бола</h3>
+                        <p>Практическое руководство по воспитанию здорового и счастливого ребенка.</p>
+                    </a>
+                </div>
+                <div class="book">
+                    <a href="https://hilolnashr.uz/oilada-farzand-tarbiyasi" target="_blank">
+                        <img src="{{ url_for('static', filename='book6.jpg') }}" alt="Оилада фарзанд тарбияси">
+                        <h3>Оилада фарзанд тарбияси</h3>
+                        <p>Советы по воспитанию детей в семье с акцентом на исламские традиции.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Иброхим Абдукодиров. Все права защищены.</p>
+    </footer>
+</body>
+</html>
